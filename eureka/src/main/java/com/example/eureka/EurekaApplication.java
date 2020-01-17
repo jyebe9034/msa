@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @SpringBootApplication
-@EnableEurekaServer
+@EnableEurekaServer // eureka서버 1개에 붙여주는 어노테이션
 public class EurekaApplication {
 
 	public static void main(String[] args) {
