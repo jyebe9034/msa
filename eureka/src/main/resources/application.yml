@@ -7,6 +7,7 @@ server:
 
 eureka:
   client:
+  // register-with-eureka와 fetch-registry를 false로 설정해주는 건 기본 eureka서버에서만 해주면 됨
     register-with-eureka: false
     fetch-registry: false
     service-url:
