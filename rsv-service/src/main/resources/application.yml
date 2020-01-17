@@ -3,9 +3,9 @@ spring:
     name: rsv-service
 
 server:
-  port: 8003
+  port: 8003 # 여기를 8001, 8002, 8003 이런식으로 다르게 설정해서 여러개를 띄울 수 있음
 
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://localhost:8761/eureka/ #defaultZone은 eureka서버의 port번호 그래도 설정해야 함
