@@ -13,7 +13,7 @@ import java.util.Map;
 
 @SpringBootApplication
 @RestController
-@EnableFeignClients
+@EnableFeignClients // FeignClient어노테이션이 붙은 interface를 받아주기 위한 어노테이션
 public class MemberServiceApplication {
 
 	@Autowired
