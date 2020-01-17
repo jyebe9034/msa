@@ -8,4 +8,4 @@ server:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://localhost:8761/eureka/ #defaultZone은 eureka서버의 port번호 그래도 설정해야 함
